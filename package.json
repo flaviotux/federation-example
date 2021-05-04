@@ -1,0 +1,28 @@
+{
+  "name": "@flaviotux/graphql-products",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "GraphQL Product Service for magalu",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "cross-env DEBUG=graphql-products:* nodemon --exec babel-node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@apollo/federation": "^0.24.0",
+    "apollo-server": "^2.24.0",
+    "debug": "^4.3.1",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  }
+}
